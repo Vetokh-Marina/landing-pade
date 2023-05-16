@@ -1,0 +1,159 @@
+@import url('./_normalize.css');
+@import url('./_vars.css');
+
+html,
+body {
+    font-size: var(--main-font-size);
+    font-family: var(--main-font-family);
+    text-align: center;
+    color: var(--main-color-text);
+}
+
+* {
+    margin: 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+li {
+    display: inline-block;
+}
+
+.nav-link {
+    color: var(--color-link);
+}
+
+.nav-link:hover {
+    color: var(--main-color-text);
+}
+
+.nav {
+    padding: 28px 0;
+    margin-bottom: 12px;
+    border-bottom: 1px solid var(--color-link);
+}
+
+.nav-list {
+    margin: 0 20px;
+}
+
+.title-1 {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.my-photo {
+    display: block;
+}
+
+.about-me p {
+    margin-bottom: 30px;
+}
+
+.about-me,
+.portfolio {
+    background-color: var(--background-section);
+}
+
+.product:not(:last-child) {
+    margin-right: 97px;
+}
+
+.skills-text {
+    margin-bottom: 50px;
+}
+
+/* Дав мінімальну висоту для тексту щоб вирівняти їх  */
+.product-name {
+    min-height: 40px;
+    margin-bottom: 60px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #7d888a;
+    line-height: 1.35;
+}
+/* .product-list{
+    white-space: nowrap;
+} */
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.title-2 {
+    margin-bottom: 50px;
+}
+
+.portfolio-text {
+    font-weight: 400;
+    line-height: 1.38;
+    text-decoration-line: underline;
+    padding: 40px 0 70px;
+}
+
+.star:not(:last-child) {
+    margin-right: 2px;
+}
+
+.social-group img:hover {
+    background-color: rgb(43, 159, 226);
+    border-radius: 15px;
+
+}
+/* ---footer */
+.button {
+    display: inline-block;
+    padding: 10px 16px;
+    margin-top: 60px;
+    background: var(--main-color-text);
+    color: #FFFFFF;
+    line-height: 1.38;
+    letter-spacing: 0.1em;
+    border-radius: 22px;
+}
+
+.button:hover {
+    background: #FFFFFF;
+    color: var(--main-color-text);
+    border: 1px solid black;
+}
+
+.social-group {
+    margin: 30px 0 60px;
+}
+
+.social-link:not(:last-child) {
+    margin-right: 50px;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-link);
+    line-height: 1.35;
+}
+/* Стилі для блока кртинки */
+.wrap-logo {
+    height: 80px;
+    margin-bottom: 25px;
+}
+.logo {
+    width: auto;
+    height: 100%;
+}
